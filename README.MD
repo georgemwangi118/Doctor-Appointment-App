@@ -68,6 +68,7 @@ The project has 3 users.
 ## admin role
 
 - admin approves/reject doctor's request to be listed in the doctor's list.
+  ![admin-dashboard](/images/admin.png "Admin Dashboard)
 
 ### How it's done
 

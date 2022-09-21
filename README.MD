@@ -76,11 +76,13 @@ The project has 3 users.
 - User create an account and logs in.
 - User then apply's for a doctor, then admin then approves or rejects the request.
 - If approved, the doctor's info will be listed for a patient to book a session.
+  <img src="/images/apply-doctor-form.png" alt="doctor-form" style="height: 300px; width: 100%;"/>
 
 ## Doctor's role
 
 - Doctor approves/reject patient's appointment.
 - Doctor can update his/her profile
+  <img src="/images/appointment-list.png" alt="admin-dashboard" style="height: 300px; width: 100%;"/>
 
 ## User(patient) role
 
@@ -88,3 +90,26 @@ The project has 3 users.
 - Once he/she submits the appointment, he/she waits for the doctor to approve the appointment.
 - The user will then receive a notification with a message whether the appointment was approved or rejected.
 - The appointment status then changes from pending to either approved or rejected.
+  <img src="/images/book-appointment.png" alt="admin-dashboard" style="height: 300px; width: 100%;"/>
+
+# IMAGES SAMPLE
+
+## Register
+
+<img src="/images/register.png" alt="admin-dashboard" style="height: 300px; width: 100%;"/>
+
+## Login
+
+<img src="/images/login.png" alt="admin-dashboard" style="height: 300px; width: 100%;"/>
+
+## Apply Doctor Form
+
+<img src="/images/apply-doctor-form.png" alt="admin-dashboard" style="height: 300px; width: 100%;"/>
+
+## Doctor's list
+
+<img src="/images/doctorslist.png" alt="admin-dashboard" style="height: 300px; width: 100%;"/>
+
+## user's list
+
+<img src="/images/userslist.png" alt="admin-dashboard" style="height: 300px; width: 100%;"/>

@@ -17,6 +17,10 @@ const doctorSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    profilePicture: {
+      type: String,
+      default: "",
+    },
     website: {
       type: String,
       required: true,

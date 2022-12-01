@@ -16,6 +16,8 @@ import Profile from "./pages/Doctor/Profile";
 import BookAppointment from "./pages/BookAppointment";
 import Appointments from "./pages/Appointments";
 import DoctorAppointments from "./pages/Doctor/DoctorAppointments";
+import HomePage from "./pages/Home/HomePage";
+import List from "./pages/List/List";
 
 function App() {
   const loading = useSelector((state) => state.alerts);
@@ -28,6 +30,8 @@ function App() {
       )}
       <Toaster position="top-center" reverseOrder={false} />
       <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/list" element={<List />} />
         <Route
           path="/login"
           element={

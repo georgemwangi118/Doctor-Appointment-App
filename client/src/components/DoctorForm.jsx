@@ -1,4 +1,4 @@
-import { Button, Col, Form, Input, Row, TimePicker } from "antd";
+import { Col, Form, Input, Row, TimePicker } from "antd";
 import moment from "moment";
 import React from "react";
 
@@ -115,10 +115,10 @@ function DoctorForm({ onFinish, initivalValues }) {
         </Col>
       </Row>
 
-      <div className="d-flex justify-content-end">
-        <Button className="primary-button" htmlType="submit">
+      <div className="d-flex justify-content-center">
+        <button className="btn btn-success" htmlType="submit">
           SUBMIT
-        </Button>
+        </button>
       </div>
     </Form>
   );

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { LocalPharmacy } from "@mui/icons-material";
 import "../layout.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -64,7 +65,7 @@ function Layout({ children }) {
     },
     {
       name: "Profile",
-      path: "/profile",
+      path: "/",
       icon: "ri-user-line",
     },
   ];
@@ -80,7 +81,8 @@ function Layout({ children }) {
       <div className="d-flex layout">
         <div className="sidebar">
           <div className="sidebar-header">
-            <h1 className="logo">GNH</h1>
+            <LocalPharmacy className="logo" />
+
             <h1 className="role">{role}</h1>
           </div>
 

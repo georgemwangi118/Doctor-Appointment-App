@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { hideLoading, showLoading } from "../redux/alertsSlice";
+import "./styles/login.css";
 
 function Login() {
   const dispatch = useDispatch();
@@ -46,8 +47,8 @@ function Login() {
             LOGIN
           </Button>
 
-          <Link to="/register" className="anchor mt-2">
-            CLICK HERE TO REGISTER
+          <Link to="/register" className="link anchor mt-2">
+            Register Here
           </Link>
         </Form>
       </div>
